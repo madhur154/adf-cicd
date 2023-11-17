@@ -1,0 +1,9 @@
+{
+	"name": "sourcee-datafactoryy",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f197bbfd-ddc2-4600-8c85-19e8534d6675",
+		"tenantId": "a0558961-a577-4a8e-abe8-2d0b9a310ed2"
+	}
+}
