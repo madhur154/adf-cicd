@@ -1,0 +1,20 @@
+{
+	"name": "Binary3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "hello",
+				"folderPath": "output",
+				"container": "sink"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
